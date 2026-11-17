@@ -18,7 +18,8 @@ Unlike standard homebrew tools that only write visual description text, this ser
 
 ### 1. Install Dependencies
 ```bash
-cd /Users/baltabay/Desktop/dnd_5e
+git clone https://github.com/baltabaygal/dndbeyond-homebrew-mcp.git
+cd dndbeyond-homebrew-mcp
 npm install
 ```
 
@@ -40,7 +41,7 @@ Add this to your MCP settings configuration (`mcp_config.json`, Claude Desktop, 
   "mcpServers": {
     "dndbeyond-homebrew": {
       "command": "node",
-      "args": ["/Users/baltabay/Desktop/dnd_5e/dist/server.js"],
+      "args": ["/path/to/dndbeyond-homebrew-mcp/dist/server.js"],
       "env": {
         "HEADLESS": "true"
       }

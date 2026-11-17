@@ -68,17 +68,17 @@ Authored by game designer **James Introcaso**, this editorial masterclass series
 
 ---
 
-## 5. Live Items Created During Testing
+## 5. Benchmark Creations & Test Suites
 
-These items were generated and published directly into the user's D&D Beyond account during development:
+The following test suites were used to benchmark and verify automated mechanics across D&D Beyond:
 
-1. **[Ring of the Coral Tide](https://www.dndbeyond.com/homebrew/creations/magic-items/12196482-ring-of-the-coral-tide/edit)** *(ID: `12196482`)*
+1. **Ring of the Coral Tide**
    * Initial MVP test item (Rare, Attunement, Swimming Speed, Create or Destroy Water 1/day).
-2. **[Ring of the Coral Tide (Automated)](https://www.dndbeyond.com/homebrew/creations/magic-items/12196682-ring-of-the-coral-tide-automated/edit)** *(ID: `12196682`)*
+2. **Ring of the Coral Tide (Automated)**
    * Full mechanical engine test (+10 ft swimming speed bonus, Cold resistance badge, 1 charge resetting at Dawn, attached spell).
-3. **[Ring of the Storm Herald](https://www.dndbeyond.com/homebrew/creations/magic-items/12196703-ring-of-the-storm-herald/edit)** *(ID: `12196703`)*
+3. **Ring of the Storm Herald**
    * Very Rare ring testing multi-spell attachment (*Misty Step* and *Thunderwave*), +2 Initiative bonus, Lightning resistance badge, and 3 charges with daily Dawn recharge.
-4. **[Crown of the Titan's Vanguard](https://www.dndbeyond.com/homebrew/creations/magic-items/12198357-crown-of-the-titans-vanguard/edit)** *(ID: `12198357`)*
+4. **Crown of the Titan's Vanguard**
    * Ultimate benchmark item testing all D&D Beyond mechanics simultaneously:
      * Strength +2 and twin `Ability Score Maximum` (+2) modifier to bypass DDB's 20-cap.
      * Bonus Unarmored AC (+1) without breaking Barbarian/Monk class features.
@@ -90,7 +90,7 @@ These items were generated and published directly into the user's D&D Beyond acc
      * 5 charges with Short Rest recharge cycle.
      * 3 attached spells (*Shield*, *Misty Step*, *Fireball*) spanning Reaction, Bonus Action, and Action economies.
      * Auto-formatted dynamic snippets (`{{savedc:...}}`, `{{modifier:...}}`, `{{proficiency}}`) and tooltip BBCode tags (`[spell]`, `[condition]`, `[sense]`).
-5. **[Juggernaut's Stride](https://www.dndbeyond.com/homebrew/creations/create-feat/2484283-juggernauts-stride/edit)** *(ID: `2484283`)*
+5. **Juggernaut's Stride**
    * Automated homebrew feat testing:
      * Prerequisite validation ("Strength 13 or higher").
      * Strength +1 with auto-injected `Ability Score Maximum` (+1, STR).
