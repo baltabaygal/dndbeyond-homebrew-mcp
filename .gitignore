@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & Secrets
+.env
+.env*.local
+.env.production
+.env.development
+session.json
+*.pem
+*.key
+
+# Build output
+dist/
+
+# Logs and screenshots
+*.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+character_*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
